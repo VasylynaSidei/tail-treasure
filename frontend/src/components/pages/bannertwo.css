@@ -1,0 +1,82 @@
+.banner-container {
+  height: 60vh;
+}
+
+.bannertwo-container {
+  background-image: url("../Images/bannertwo.jpg");
+  height: 100%;
+  background-size: cover;
+  background-position: right;
+  padding: 3rem;
+}
+.banner-h1 {
+  color: rgb(255, 255, 255);
+}
+.banner-p {
+  width: 40%;
+  padding-top: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+
+.bannertwo-button {
+  margin-top: 4rem;
+  padding: 1rem;
+  width: 24%;
+  border-radius: 1rem;
+  border: none;
+  background-color: white;
+  color: rgb(58, 55, 55);
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 520px) {
+  .banner-container {
+    height: auto;
+  }
+  .banner-h1 {
+    font-size: 1rem;
+    margin-left: -13rem;
+    margin-top: 1.5rem;
+  }
+
+  .banner-p {
+    display: none;
+  }
+
+  .bannertwo-button {
+    margin-top: 1rem;
+    width: 40%;
+    height: 4vh;
+    padding: 2px;
+    font-size: 0.6rem;
+
+    margin-left: -2rem;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .banner-h1 {
+    font-size: 2rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .bannertwo-button {
+    width: 30%;
+    font-size: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner-p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-p {
+    display: none;
+  }
+  .bannertwo-button {
+    margin-bottom: 10rem;
+  }
+}

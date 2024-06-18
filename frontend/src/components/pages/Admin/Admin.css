@@ -1,0 +1,227 @@
+/*Boss observatory */
+
+.admin-dashboard {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: calc(100vh- 130px);
+}
+
+/*Sidebar*/
+
+.admin-sidebar {
+  flex: 2;
+  border-right: 1px solid gray;
+  padding: 20px;
+}
+.admin-sidebar-title {
+  font-style: 24px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.admin-dashboard-list {
+  padding: 5px;
+}
+
+.admin-sidebar-link {
+  color: rgb(97, 141, 172);
+  font-style: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+/*The Main*/
+
+.admin-main {
+  flex: 10;
+  padding: 10px;
+}
+
+.admin-main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid gray;
+}
+
+.admin-main-card {
+  border: 2px solid gray;
+  width: 22%;
+  margin: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.admin-card-title {
+  font-size: 21px;
+  font-weight: 500;
+  color: gray;
+}
+.admin-card-count {
+  color: rebeccapurple;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.admin-card-link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-card-link {
+  font-size: 17px;
+  background-color: var(--green-sea-color);
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 500;
+  color: rgb(97, 141, 172);
+  text-decoration: none;
+}
+
+/* Form for adding categories*/
+
+.add-category {
+  margin: 10px auto;
+  margin-top: 20px;
+  width: 700px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.add-category-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(162, 149, 74);
+  margin-bottom: 15px;
+}
+
+.add-category-form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-category-form-group label {
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+}
+
+.add-category-form-group input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-size: 21px;
+}
+
+.add-category-btn {
+  cursor: pointer;
+  border: none;
+  background-color: gray;
+  width: 100%;
+  font-size: 21px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+/* Support Messages Chat */
+
+.chat-container {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.chat-message {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.chat-header strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.chat-header span {
+  font-size: 12px;
+  color: #999;
+}
+
+.chat-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.chat-body {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.delete-btn {
+  align-self: flex-end;
+  padding: 5px 10px;
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.delete-btn:hover {
+  background: #e60000;
+}
+
+/*Media Queries*/
+
+@media (max-width: 1200px) {
+  .admin-main-card {
+    width: 44%;
+  }
+}
+
+@media (max-width: 990px) {
+  .admin-sidebar {
+    display: none;
+  }
+
+  .add-category {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .admin-main-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+.container-reset {
+  max-width: 500px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reset-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.reset-box {
+  margin-top: 30px;
+}
+
+.reset-field {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.reset-field:focus {
+  outline: none;
+  border-color: #007bff;
+}
+.reset-button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background-color: #800080;
+  color: #ffd700;
+  border: none;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.reset-button:hover {
+  background: #ffd700;
+  box-shadow: #ffc0cb;
+  color: #800080;
+}

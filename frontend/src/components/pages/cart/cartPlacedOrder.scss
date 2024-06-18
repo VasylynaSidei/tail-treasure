@@ -1,0 +1,101 @@
+.cart-placed-order {
+  //   width: 100%;
+  padding-block: 5rem;
+  img {
+    background-color: white;
+    width: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    // background-color: #fee6b8;
+    // border: rgb(245, 185, 73) solid 5px;
+    // border: rgb(0, 192, 0) solid 6px;
+  }
+  h2 {
+    text-align: center;
+    margin-block: 2rem;
+    font-size: 2.2rem;
+    color: rgb(0, 192, 0);
+    // color: rgb(245, 185, 73);
+  }
+  p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  button {
+    a {
+      text-decoration: none;
+      color: white;
+      // color: rgb(245, 185, 73);
+    }
+    width: 50%;
+    margin: 3rem auto;
+    display: block;
+    // background-color: #fee6b8;
+    color: rgb(245, 185, 73);
+    background-color: rgb(245, 185, 73);
+    // color: white;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart-placed-order {
+    //   width: 100%;
+    padding-block: 5rem;
+    img {
+      background-color: white;
+      width: 120px;
+      display: block;
+      margin: auto;
+      border-radius: 50%;
+      // background-color: #fee6b8;
+      // border: rgb(245, 185, 73) solid 5px;
+      // border: rgb(0, 192, 0) solid 6px;
+    }
+    h2 {
+      text-align: center;
+      margin-block: 2rem;
+      font-size: 1.5rem;
+      color: rgb(0, 192, 0);
+      // color: rgb(245, 185, 73);
+    }
+    p {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      font-size: 1rem;
+    }
+    button {
+      a {
+        text-decoration: none;
+        color: white;
+        // color: rgb(245, 185, 73);
+      }
+      width: 50%;
+      margin: 3rem auto;
+      display: block;
+      // background-color: #fee6b8;
+      color: rgb(245, 185, 73);
+      background-color: rgb(245, 185, 73);
+      // color: white;
+      padding: 5px;
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-transform: uppercase;
+
+      border: none;
+      border-radius: 10px;
+    }
+  }
+}
+@media (max-width: 375px) {
+}

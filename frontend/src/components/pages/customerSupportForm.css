@@ -1,0 +1,116 @@
+.container-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  height: 460px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: rgb(255, 248, 240);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 248, 240, 1) 29%,
+    rgba(254, 230, 184, 1) 56%,
+    rgba(237, 180, 75, 1) 74%
+  );
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 25px;
+
+  padding: 100px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.form-container label {
+  margin-bottom: 5px;
+}
+
+.form-container input {
+  width: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.form-container textarea {
+  width: auto;
+  padding: 25px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.form-container button {
+  padding: 10px 50px;
+  margin-left: 30px;
+  background-color: violet;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.image-container {
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  height: 20rem;
+  border-radius: 15%;
+}
+
+@media only screen and (max-width: 980px) {
+  .container-form {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .form-container button {
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .form-container {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 320px) and (max-height: 480px) {
+  .container-form {
+    width: auto;
+    margin-left: 5px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-container img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .form-container button {
+    align-items: center;
+  }
+  .form-container {
+    align-items: center;
+  }
+}

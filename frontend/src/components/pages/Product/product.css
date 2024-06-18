@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(255, 248, 240);
+}
+
+.Product {
+  background-color: rgb(255, 248, 240);
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.Product a {
+  text-decoration: none;
+  color: black;
+}
+.Product a img {
+  height: 200px;
+  border-radius: 0%;
+}
+.Product .card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Product .card .active {
+  color: palevioletred;
+}
+.Product .card .favorite:hover {
+  color: palevioletred;
+}
+.Product .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.Product .card:hover .cart-btn {
+  visibility: visible;
+  font-weight: 900;
+}
+.Product .cart-btn {
+  background-color: rgb(245, 185, 73);
+  font-size: 1.3rem;
+  /* font-weight: 900; */
+  width: 20rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  visibility: hidden;
+  border: none;
+  color: white;
+  padding-block: 4px;
+}
+.Product .cart .cont-prod {
+  background-color: white;
+  width: 400px;
+  margin: 20px;
+}
+.Product .cart .cont-prod .img-cont img {
+  display: block;
+  margin: auto;
+}
+.Product .cart .cont-prod button {
+  background-color: rgb(245, 185, 73);
+}
+.Product .cart .cont-prod .card {
+  gap: 1rem;
+}
+.Product .cart .cont-prod .card .favorite:hover {
+  background-color: rgb(245, 185, 73);
+}
+.Product .cart .cont-prod .card .card-body .cont-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.Product .cart .cont-prod .card .card-body .cont-btn .cont-quant {
+  display: flex;
+}
+
+.cart:hover .cart-btn {
+  visibility: visible;
+  font-weight: bold;
+} /*# sourceMappingURL=product.css.map */

@@ -1,0 +1,149 @@
+.slider-container {
+  height: calc(80vh - 250px);
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.arrow-right,
+.arrow-left {
+  /* background-color: hsl(39, 100%, 50%); */
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 20px;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  display: none;
+  transition: opacity 0.2s ease;
+}
+
+.arrow-right {
+  right: 10px;
+}
+
+.arrow-left {
+  left: 10px;
+}
+.slider-container:hover .arrow-right,
+.slider-container:hover .arrow-left {
+  display: flex;
+  opacity: 1;
+}
+.slider-wrapper {
+  height: 100%;
+  display: flex;
+  transition: all 1s ease;
+}
+
+.slide {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-img-wrapper {
+  width: 40%;
+  height: 100%;
+}
+
+.slide-img-wrapper img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.slide-info-wrapper {
+}
+
+.slide-info-title {
+  font-size: 16px;
+  max-width: 80%;
+}
+
+.slide-info-desc {
+  margin-right: 21px;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+/* 
+media queries
+*/
+@media (max-width: 692px) {
+  .slide-info-wrapper {
+    margin-left: 50px;
+    height: 50%;
+  }
+  .slide-info-title {
+    font-size: 16px;
+  }
+  .slide-info-desc {
+    font-size: 12px;
+  }
+  .cart-btn1 {
+    width: 8rem;
+    margin-left: 1.5rem;
+  }
+  .slide {
+    display: flex;
+    flex-direction: column;
+
+    height: 40vh;
+  }
+  .slide-img-wrapper {
+    height: 40vh;
+    width: 30vw;
+  }
+  .slider-wrapper {
+    height: 100%;
+    display: flex;
+    transition: all 1s ease;
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .slide {
+    width: 100vw;
+
+    margin-bottom: 1rem;
+  }
+  .slide-img-wrapper {
+    width: 220px;
+  }
+  .slide-info-title {
+    font-size: 14px;
+  }
+  .slide-info-desc {
+    margin-right: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .slider-container {
+    border: 1px solid rgb(255, 249, 249);
+    height: fit-content;
+    margin-top: -4rem;
+  }
+  .slider-wrapper {
+    border: 1px solid rgb(255, 253, 253);
+  }
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart-btn1 {
+    margin: 0rem;
+  }
+}

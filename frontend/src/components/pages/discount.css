@@ -1,0 +1,108 @@
+.main-container {
+  background-color: white;
+}
+
+.discount-h2 {
+  text-align: start;
+  border-top: 5px solid rgb(228, 184, 79);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 2rem;
+}
+
+.discount-h1 {
+  width: 50%;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  padding-top: 2rem;
+  border-bottom: 5px solid rgb(228, 184, 79);
+}
+
+.dog-image img {
+  height: 200px;
+  width: auto;
+  margin: 0.5rem;
+}
+
+.dog-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.border-card {
+  background-color: rgb(255, 254, 254);
+  width: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  border: 1px solid black;
+}
+
+.dog-description-container {
+  margin: 0.5rem;
+  padding: 2px;
+}
+
+.dog-description {
+  font-size: 0.9rem;
+}
+
+.dog-price {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.dog-buy-button {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dog-image:hover .dog-buy-button {
+  opacity: 1;
+  background-color: rgb(234, 193, 101);
+}
+
+.discount-h5 {
+  width: 100%;
+  background-color: rgb(241, 12, 12);
+  text-align: center;
+  height: 2rem;
+  padding-top: 0.5rem;
+}
+
+.discounted-span {
+  text-decoration: underline;
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .dog-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .border-card {
+    width: 55vw;
+  }
+
+  .dog-image img {
+    width: 90%;
+    height: 200px;
+  }
+
+  .discount-h1,
+  .discount-h2 {
+    font-size: 1.5rem;
+  }
+}

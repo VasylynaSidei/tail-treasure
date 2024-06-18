@@ -1,0 +1,165 @@
+.table-container {
+  display: flex;
+  height: 80vh;
+}
+
+.table-wrapper {
+  flex: 10;
+  padding: 20px;
+  overflow-y: scroll;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px #ffffff;
+}
+
+.table-title {
+  width: 100%;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgb(138, 131, 0);
+  padding-bottom: 3px;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  background-color: #f0f0f0 !important;
+  border: 1px solid #e0e0e0 !important;
+  padding: 10px !important;
+  color: #333 !important;
+}
+
+.table th {
+  background-color: #c0c0c0 !important;
+  color: #fff8f0 !important;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f5f5f5 !important;
+}
+
+.table-image {
+  display: flex;
+  align-items: center;
+}
+
+.table-user-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.table-username {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.table-user-email {
+  font-size: 14px;
+}
+
+.table-button-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2px;
+}
+.table-button-group button {
+  border: none;
+  background-color: #ddd !important;
+  color: #333 !important;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+}
+.table-button-group button:last-child {
+  background-color: #f99 !important;
+}
+.table-button-group button:first-child:hover {
+  background-color: #80d680 !important;
+}
+.table-button-group button:last-child:hover {
+  background-color: #f66 !important;
+}
+.table-button-group button a {
+  text-decoration: none;
+  color: #333 !important;
+}
+
+@media (max-width: 1024px) {
+  .table-wrapper {
+    padding: 15px;
+  }
+  .table-button-group {
+    flex-wrap: wrap;
+  }
+  .table-button-group button {
+    width: 50%;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  .table th,
+  .table td {
+    font-style: 14px;
+    padding: 5px;
+  }
+  .table-username,
+  .table-body td {
+    font-size: 16px;
+  }
+  .table-image {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 990px) {
+  .table-wrapper {
+    padding: 15px;
+  }
+  .table-button-group button {
+    width: 70%;
+  }
+}
+@media (max-width: 720px) {
+  .table-wrapper {
+    padding: 10px;
+  }
+  .table-button-group button {
+    width: 80%;
+  }
+}
+@media (max-width: 520px) {
+  .table-wrapper {
+    padding: 5px;
+  }
+  .table-username,
+  .table-body td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  .table-head tr {
+    display: none;
+  }
+  .table-button-group button {
+    width: 100%;
+  }
+  input {
+    width: 50%;
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=adminTable.css.map */

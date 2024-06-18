@@ -1,0 +1,584 @@
+
+[{
+  "name": "ROYAL CANIN Chihuahua Adult",
+  "description": "Diet is a very important factor in supporting the health of your adult Chihuahua. ROYAL CANIN Chihuahua Adult is suitable for Chihuahuas aged 8 months and over. The food has been specially tailored to the needs of adult Chihuahuas, who are considered very picky. ",
+  "price": 24.49,
+  "quantity": 100,
+  "category": "dogs",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Hundefutter-Chihuahua-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},
+{
+  "name": "ROYAL CANIN BHN Yorkshire Terrier Adult",
+  "description": "Yorkshire Terriers, or Yorkies, are balanced, active and intelligent dogs full of energy and enthusiasm. The little terrier is eager to learn, playful and self-confident. Every breed of dog has different needs. Diet should take this into account to support optimal health. ROYAL CANIN Yorkshire Terrier Adult is suitable for Yorkshire Terriers from 10 months and has been specially tailored to the nutritional needs of this breed.",
+  "price": 14.49,
+  "quantity": 100,
+  "category": "dogs",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Hundefutter-YorkshireTerrier-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},{
+  "name": "ROYAL CANIN MEDIUM Adult dry food for medium-sized dogs",
+  "description": "At 12 months, a medium-sized dog is fully grown, although his behavior may seem like that of a puppy for a while. Good nutrition is just as important at this stage of life as it is during growth. Ensuring that food provides the right nutrients in the right amounts is key to supporting and maintaining health. ROYAL CANIN Medium Adult is specifically tailored to the nutritional needs of a medium-sized, adult dog. The food is ideal for dogs aged 1-7 years with a body weight of 11kg-25kg.",
+  "price": 24.99,
+  "quantity": 100,
+  "category": "dogs",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Hundefutter-Medium-Adult-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},{
+  "name": "ROYAL CANIN MAXI Adult dry food for large dogs",
+  "description": "The nutritional needs of large dogs differ enormously from the needs of smaller dogs. It is therefore particularly important to ensure a balanced diet that is tailored to the dog's specific needs, which depend on size and age. The ROYAL CANIN Maxi Adult dog food is specially tailored to the needs of your dog. It is suitable for large dogs from 15 months of age and weighing 26kg-44kg when fully grown.",
+  "price": 24.49,
+  "quantity": 100,
+  "category": "dogs",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Hundefutter-Maxi-Adult-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},{
+  "name": "ROYAL CANIN MINI Adult dry food for small dogs",
+  "description": "Even when a dog becomes an adult, it is important to ensure that their diet continues to provide the important nutrients that support optimal health throughout adulthood. ROYAL CANIN Mini Adult is suitable for small dogs from 10 months and weighing up to 10 kg and has been specially tailored to the needs of small dogs.",
+  "price": 15.99,
+  "quantity": 100,
+  "category": "dogs",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Hundefutter-Mini-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},{
+  "name": "ROYAL CANIN Labrador Retriever Adult Sterilized dry food for neutered dogs",
+  "description": "The lovable, lively and good-natured Labrador Retriever is both a popular family pet and a versatile companion dog. Thanks to its agility, intelligence and keen sense of smell, the Labrador Retriever is often used as a guide dog or search and rescue dog. Nutrition is also an essential component of a healthy life for neutered, adult Labradors. For this reason, choosing a balanced diet is very important. ",
+  "price": 64.99,
+  "quantity": 100,
+  "category": "dogs",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Hundefutter-LabradorRetriever-Sterilised-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},{
+  "name": "ROYAL CANIN MINI Adult 8+ dry food for older small dogs",
+  "description": "As your dog grows into adulthood, it is important that his diet provides him with nutrients that will continue to support his health as the first signs of aging begin to appear. ROYAL CANIN Mini Adult 8+ is suitable for small dogs aged 8 and over weighing up to 10 kg and has been specially tailored to the needs of small, adult dogs",
+  "price": 15.99,
+  "quantity": 100,
+  "category": "dogs",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Hundefutter-Mini-Adult-8plus-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},{
+  "name": "ROYAL CANIN Dachshund Adult dry dog ​​food for Dachshunds",
+  "description": "The Dachshund is known for its strong will and great courage. The friendly dog ​​enthusiastically accompanies his human pack in all activities. Because each dog breed has its own unique needs, nutrition should support their unique lifestyle and promote optimal health. ROYAL CANIN Dachshund Adult is suitable for dachshunds from 10 months of age and has been specially adapted to the needs of adult dachshunds.",
+  "price": 49.99,
+  "quantity": 100,
+  "category": "dogs",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Hundefutter-Dachshund-Adult-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},{
+  "name": "ROYAL CANIN French Bulldog Adult dry dog ​​food for French Bulldogs",
+  "description": "The French Bulldog is a small breed with pronounced muscle mass, a compact build and strong bones. These strong dogs are usually alert, active and intelligent. Because each breed has its own unique needs, nutrition should support their unique lifestyle and promote optimal health. ROYAL CANIN French Bulldog Adult is suitable for French Bulldogs from 12 months old and has been specially adapted to the needs of adult French Bulldogs.",
+  "price": 23.99,
+  "quantity": 100,
+  "category": "dogs",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Hundefutter-FrenchBulldog-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},{
+  "name": "ROYAL CANIN Maltese Adult dry dog ​​food",
+  "description": "Maltese are lively, loving and highly intelligent dogs that make excellent companions. Every breed of dog has different needs. Diet should take this into account to support optimal health. ROYAL CANIN Maltese Adult is suitable for Maltese dogs from 10 months of age and has been specially tailored to the needs of this breed. The breed's diet helps maintain a healthy balance of intestinal flora. This optimally supports your dog's digestion and at the same time reduces unpleasant stool odors.",
+  "price": 29.99,
+  "quantity": 100,
+  "category": "dogs",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Hundefutter-Maltese-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+}],
+
+
+
+
+
+[{
+  "name": "ROYAL CANIN FIT dry food for active cats",
+  "description": "It is important to take care to maintain the health of active and healthy adult cats. Even healthy cats need high-quality, healthy food with the right content of valuable nutrients. ROYAL CANIN Fit 32 is suitable for adult cats aged 1-7 years and has been specially developed with the nutritional needs of cats in mind to support and maintain their good health in the long term.",
+  "price": 22.49,
+  "quantity": 80,
+  "category": "cats",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Katzenfutter-Fit32-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},
+{
+  "name": "ROYAL CANIN INSTINCTIVE wet cat food in sauce",
+  "description": "Choosing the right food for your cat is important to support a healthy lifestyle. ROYAL CANIN Instinctive in Sauce is perfectly tailored to the optimized nutrient profile instinctively preferred by adult cats. Carefully selected nutrients ensure optimal palatability - for food that your cat cannot resist. Due to the balanced combination of vitamins, minerals and amino acids (all necessary for maintaining overall health) contained in this wet food, your cat will consume a highly digestible and balanced food.",
+  "price": 15.35,
+  "quantity": 80,
+  "category": "cats",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Katzenfutter-Instinctive-Nassfutter-inSosse-15ddbbd0f727f75f1ebc4d58121.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},
+{
+  "name": "ROYAL CANIN SENSIBLE dry food for sensitive cats",
+  "description": "Cats with sensitive digestions may be sensitive to certain types of food. If this is the case for your cat, a change in diet may be necessary to soothe the delicate digestive tract. ROYAL CANIN Sensible 33 is ideal for cats aged 1-7 years with sensitive digestion. It contains an exclusive combination of nutrients to strengthen and support optimal digestive security. If your cat does well on Sensible 33, you can continue to feed your four-legged friend ROYAL CANIN Sensible 33. This food was not only developed to support the digestion of sensitive cats, but also to keep them healthy in the long term.",
+  "price": 22.49,
+  "quantity": 80,
+  "category": "cats",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Katzenfutter-Sensible-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},
+{
+  "name": "ROYAL CANIN Maine Coon Adult dry cat food",
+  "description": "As the owner of a Maine Coon cat, you will know that not only is she the largest domestic cat in the world, but her impressive stature is complemented by a thoroughly amiable personality. Due to their strong bone structure and muscular body, this breed can weigh three times as much as the average cat. ROYAL CANIN Maine Coon Adult food is specially tailored to the needs of this popular cat breed. The ROYAL CANIN Maine Coon Adult food is enriched with taurine, EPA and DHA (omega-3 fatty acids), which help support and maintain heart function.",
+  "price": 25.59,
+  "quantity": 80,
+  "category": "cats",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Katzenfutter-MaineCoon-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},
+{
+  "name": "ROYAL CANIN INDOOR 27 dry food for indoor cats",
+  "description": "ROYAL CANIN Indoor 27 cat food is specifically tailored to the nutritional needs of adult cats that only live indoors. Lack of exercise can lead to slowed digestion and smelly stools. ROYAL CANIN Indoor 27 contains high-quality LIP proteins: selected, easily digestible protein sources with high biological value. These proteins also help reduce stool volume and odor intensity.",
+  "price": 22.49,
+  "quantity": 80,
+  "category": "cats",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Katzenfutter-Indoor27-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},
+{
+  "name": "ROYAL CANIN OUTDOOR dry cat food for outdoor cats",
+  "description": "Cats who enjoy being outdoors and lead an active lifestyle have specific nutritional needs. In addition, their defenses are constantly being challenged. ROYAL CANIN Outdoor Cat Food has a high energy and calorie content to meet the nutritional needs of cats with an active lifestyle and regular outdoor exercise. ROYAL CANIN outdoor food is specially tailored to the needs of cats with regular exercise and exercise and contains all the necessary nutrients for active cats. ROYAL CANIN outdoor cat food has a high calorie content to meet the nutritional needs of cats with an active lifestyle and regular outdoor exercise.",
+  "price": 22.99,
+  "quantity": 80,
+  "category": "cats",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Katzenfutter-Outdoor-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},
+{
+  "name": "ROYAL CANIN STERILIZED dry food for neutered cats",
+  "description": "After castration, the cat's energy needs decrease. Therefore, a change in diet may be necessary after castration. This ensures that the respective food continues to cover the cat's changing energy needs. ROYAL CANIN Sterilized 37 is specially tailored to the special nutritional needs of neutered, adult cats. This provides optimal support for maintaining your ideal weight after the procedure.",
+  "price": 41.99,
+  "quantity": 80,
+  "category": "cats",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Katzenfutter-Regular-Sterilised-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},
+{
+  "name": "ROYAL CANIN Persian Adult dry food for Persian cats",
+  "description": "The Persian cat's ancestors were highly valued in all regions of ancient Europe - even by kings. Today, the Persian cat is celebrated as a noble, lovable cat with a gentle personality and unique, lush fur. The Persian cat has long, magnificent fur with a thick undercoat - in fact, it is the longest and densest fur of all cat breeds. That's why it's important that she gets nutrients from her food that support the health of her skin and coat. For this reason, ROYAL CANIN Persian Adult cat food contains an exclusive nutrient complex that supports the skin's barrier function and thus the health of skin and coat.",
+  "price": 22.89,
+  "quantity": 80,
+  "category": "cats",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Katzenfutter-Persian-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},
+{
+  "name": "ROYAL CANIN AGEING 12+ dry food for older cats",
+  "description": "Aging cats have different nutritional needs than young kittens. That's why it's important to adjust your cat's diet as it gets older. This can ensure that their needs are met. Some senior cats experience a decline in their sense of taste and smell as they age, which can typically lead to a loss of appetite and therefore less food intake. ROYAL CANIN Senior Aging 12+ contains very tasty croquettes with a double texture (crispy on the outside, soft on the inside) that stimulate the appetite of older cats.",
+  "price": 19.59,
+  "quantity": 80,
+  "category": "cats",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Katzenfutter-Ageing12plus-1.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+},
+{
+  "name": "ROYAL CANIN British Shorthair Adult wet cat food for British Shorthair",
+  "description": "Even when a British Shorthair cat (BKH) is fully grown and has the world at its paws, it needs a high-quality, balanced diet to maintain its health.ROYAL CANIN British Shorthair Adult in Sauce is specially tailored to the nutritional needs of British Shorthair cats. The British Shorthair has a stocky, heavy and muscular body. As a naturally robust and strong animal, a BKH can be prone to being overweight. However, this breed of cat's weight should be based primarily on their muscles, and not body fat. That's why the right nutrients (as well as the right portion size) are crucial for your diet and health. ROYAL CANIN British Shorthair Adult in Sauce contains a moderate energy content and an adjusted fat content (3.2%) for effective BKH weight management - reducing the likelihood of unwanted weight gain.",
+  "price": 21.99,
+  "quantity": 80,
+  "category": "cats",
+  "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/RoyalCanin-Katzenfutter-BritishShorthair-Nassfutter-inSosse-15f1ec61096c7f.jpg",
+  "createdAt": "2024-04-11T00:00:00.000Z"
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
+  {
+    "name": "Irish Pure Premium Dry Dog Food, High Meat Content, Vitamins, Grain Free, Sensitive, Dry Dog Food for All Breeds",
+    "description": "Perfectly matched dog food: 65% meat from Irish pasture animals, 32% vegetables and herbs as well as 3% kelp algae make 100% natural taste for your four-legged friend. From Irish free range: the meat for this dry food comes from Irish pasture lambs and outdoor chickens that spend 365 days a year in the fresh Atlantic air of Ireland. Greener can not feed meat.",
+    "price": 49.99,
+    "quantity": 100,
+    "category": "dogs",
+    "image": "https://m.media-amazon.com/images/I/61Idjbt8uZL._AC_.jpg",
+    "createdAt": "2024-04-11T00:00:00.000Z"
+  },
+  {
+    "name": "Poultry Enjoyment - Premium Dry Dog Food, Made in Germany, Dry Food for Dogs, Grain-Free & No Added Sugar, Perfect for Muscle Building and a Healthy Coat",
+    "description": "High-quality dry food: the poultry enjoyment from True Animal Love, specially developed for the nutritional needs of your dog, supports muscle building and ensures a shiny coat. Grain-free food: your dog food is made from 60% poultry protein and is free from cereals and sugar additives, ideal for sensitive stomachs and dogs with allergies. NATURAL INGREDIENTS FOR OPTIMAL HEALTH: Infused with carrots, peas, salmon oil, and herbs to promote digestion and support overall health.",
+    "price": 29.99,
+    "quantity": 75,
+    "category": "dogs",
+    "image": "https://m.media-amazon.com/images/I/71zknS2cJIL._AC_SL1500_.jpg",
+    "createdAt": "2024-04-11T00:00:00.000Z"
+  },
+  {
+    "name": "Naturpfötchen Environmentally conscious & vital with insect proteins - 100% cold pressed",
+    "description": "Free from conventional industrial meat. With essential amino acids. With peas, lupins, vegetables, fruit, fish oil and herbs. Hypoallergenic complete dry dog food with rich monoprotein. 100% cold-pressed dog food - made by the Markus Mühle with green electricity. The complete food for your dog lover.",
+    "price": 39.99,
+    "quantity": 80,
+    "category": "dogs",
+    "image": "https://m.media-amazon.com/images/I/61hFAszrbRL._AC_SL1500_.jpg",
+    "createdAt": "2024-04-11T00:00:00.000Z"
+  },
+  {
+    "name": "JosiDog Economy (1 x 15 kg) Dog Food for Adult Dogs Dry Food Powered by Josera Pack of 1",
+    "description": "Controlled and high-quality ingredients - without the addition of wheat, soy and sugar as well as artificial colours and flavourings. Crispy snacks – particularly crispy and delicious. For normally active dogs – for adult dogs with normal energy requirements. Full quality nutrition - provides your four-legged friend with all important nutrients every day. Made in Germany and not tested on animals - Made by a medium-sized family business in Germany",
+    "price": 34.99,
+    "quantity": 60,
+    "category": "dogs",
+    "image": "https://m.media-amazon.com/images/I/61jRFQ3bD1L._AC_SL1400_.jpg",
+    "createdAt": "2024-04-11T00:00:00.000Z"
+  },
+  {
+    "name": "Beneful Original Dry Dog Food with Beef and Garden Vegetables, Pack of 1 (1 x 12 kg)",
+    "description": "Dry food for adult dogs: with beef, garden vegetables and spinach. New formula: soft, fleshy chunks with natural texture. Box contents: 1 x 12 kg dry dog food with soft chunks and crispy croquettes. An adapted amount of proteins and fat to strengthen healthy joints. Dog food with valuable fibre from whole grain for healthy digestion. High-quality dog food with important omega 3 and 6 fatty acids to support healthy skin and shiny coat",
+    "price": 39.99,
+    "quantity": 80,
+    "category": "dogs",
+    "image": "https://m.media-amazon.com/images/I/812IK818yxL._AC_SL1500_.jpg",
+    "createdAt": "2024-04-11T00:00:00.000Z"
+  },
+  {
+    "name": "bosch HPC Adult Dog Food with Lamb and Rice, Dry Dog Food for Adult Dogs of all Breeds, 1 x 15 kg",
+    "description": "Wheat-free and sugar-free (suitable for sensitive dogs). Immune complex of mannas and glucans for stabilising the intestinal flora and immune defence (strengthening of the immune system).Shell extracts for strengthening cartilage, joints & bones. Easily digestible, stomach-friendly dry food. Energy and protein concentration is selected to prevent the risks of obesity",
+    "price": 32.49,
+    "quantity": 80,
+    "category": "dogs",
+    "image": "https://m.media-amazon.com/images/I/81Faad1StrL._AC_SL1500_.jpg",
+    "createdAt": "2024-04-11T00:00:00.000Z"
+  },
+  {
+    "name": "Dog Food Adult Dry with Lamb and Rice All Breeds Fine Preparation",
+    "description": "Free from chicken and wheat gluten. 195g lamb in 1kg feed equals 780g raw meat. The FMP system and Yucca promote good digestion. No added gluten. An excellent taste that your dog will like",
+    "price": 40.69,
+    "quantity": 80,
+    "category": "dogs",
+    "image": "https://m.media-amazon.com/images/I/717Q++eDZ9L._AC_SL1500_.jpg",
+    "createdAt": "2024-04-11T00:00:00.000Z"
+  },
+  {
+    "name": "Irish Pure Premium Dry Dog Food, High Meat Content, Vitamins, Grain Free, Sensitive, Dry Dog Food for All Breeds",
+    "description": "Perfectly matched dog food: 65% meat from Irish pasture animals, 32% vegetables and herbs as well as 3% kelp algae make 100% natural taste for your four-legged friend. From Irish free range: the meat for this dry food comes from Irish pasture lambs and outdoor chickens that spend 365 days a year in the fresh Atlantic air of Ireland. Greener can not feed meat",
+    "price": 16.99,
+    "quantity": 80,
+    "category": "dogs",
+    "image": "https://m.media-amazon.com/images/I/61Idjbt8uZL._AC_.jpg",
+    "createdAt": "2024-04-11T00:00:00.000Z"
+  },
+  {
+    "name": "Dehner Wild Nature Dry Dog Food",
+    "description": "Grain-free premium dry dog food with game - adult. Original, species-friendly, 100% natural composition. High meat content as well as vegetables, fruit, herbs and berries. Contains pre-biotic carbohydrates MOS and FOS. Free from chemical additives, no sugar or soy.",
+    "price": 21.99,
+    "quantity": 80,
+    "category": "dogs",
+    "image": "https://m.media-amazon.com/images/I/6137MPQt84L._AC_SL1107_.jpg",
+    "createdAt": "2024-04-11T00:00:00.000Z"
+  },
+  {
+    "name": "Dehner Wild Nature Dry Dog Food",
+    "description": "Grain-free premium dry dog food with game - adult. Original, species-friendly, 100% natural composition. High meat content as well as vegetables, fruit, herbs and berries. Contains pre-biotic carbohydrates MOS and FOS. Free from chemical additives, no sugar or soy.",
+    "price": 21.99,
+    "quantity": 80,
+    "category": "dogs",
+    "image": "https://m.media-amazon.com/images/I/61uTH4ll7RL._AC_SL1107_.jpg",
+    "createdAt": "2024-04-11T00:00:00.000Z"
+  }
+]
+[
+    
+    {
+      "name": "mera vital Urinary Dry Cat Food (1 x 3 kg), for Inflammation of the Urinary Tract, Dissolution of Struvite Stones, Prevents New Urinary Stones in Cats",
+      "description": "The urinary cat dry food inhibits inflammation in the urinary tract, strengthens the stressed bladder mucosa, avoids the formation of urinary stones and promotes water absorption in cats. High premium diet dry food specially developed by veterinarians and nutritionists - the cat food acidifies the urine, which promotes the dissolution of struvite stones. Thanks to the undersaturated yet demand-covering calcium and magnesium content, the dry cat food prevents the formation of new crystals and strengthens the stressed bladder mucosa.",
+      "price": 24.99,
+      "quantity": 80,
+      "category": "cats",
+      "image": "https://m.media-amazon.com/images/I/61FiSkh2NBL._AC_SL1500_.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Royal Canin Bengal Adult Cats Dry Food 2 kg Poultry Vegetable",
+      "description": "Royal Canin Bengal Adult cats dry food 2 kg Poultry Vegetable",
+      "price": 32.35,
+      "quantity": 80,
+      "category": "cats",
+      "image": "https://m.media-amazon.com/images/I/61rE39QdgJL._AC_SL1500_.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "PURINA Pro Plan Veterinary Diets Feline HA St/Ox Hypoallergenic - Dry Cat Food - 3 5 kg",
+      "description": "PURINA Pro Plan Veterinary Diets Feline HA St/Ox Hypoallergenic - Dry Cat Food - 3 5 kg",
+      "price": 48.75,
+      "quantity": 80,
+      "category": "cats",
+      "image": "https://m.media-amazon.com/images/I/713j+gOuEnL._AC_SL1500_.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "IAMS for Vitality Dry Cat Food with Salmon — Dry Food for Cats Aged 1-6 Years 3 kg",
+      "description": "",
+      "price": 10.59,
+      "quantity": 80,
+      "category": "cats",
+      "image": "https://m.media-amazon.com/images/I/716CItY5vgL._AC_SL1500_.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Felix Sensations Dry Cat Food, Variety Mix, Various Sizes",
+      "description": "Dry food for adult cats: Crispy croquettes in different shapes. Colourful meal with the flavours of beef, chicken and vegetables. Box contents: dry cat food with sealable bag in 1 pack (1 x 4 kg). Vitamins and essential fatty acids to support a happy cat life and for shiny coat. Cat food with vitamin D and minerals for strong teeth and bones. Cat food without preservatives or added artificial flavours and dyes",
+      "price": 11.2,
+      "quantity": 80,
+      "category": "cats",
+      "image": "https://m.media-amazon.com/images/I/81+Q1daOifL._AC_SL1500_.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Lifelong Complete Cat Food with Grain Free Recipe, beige",
+      "description": "High quality formula with 55% chicken. Veterinarians tested: developed by veterinarians and vetted. Complete food for adult cats. HYPOALLERGENIC - Contains a single animal protein source (chicken) No added wheat, corn, soy, egg, lactose and gluten. Made with natural ingredients*: no added artificial flavourings, dyes and preservatives. Natural antioxidants: with fruits and vegetables that are a source of natural antioxidants",
+      "price": 10.34,
+      "quantity": 80,
+      "category": "cats",
+      "image": "https://m.media-amazon.com/images/I/61uTH4ll7RL._AC_SL1107_.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Whiskas Cat Food Dry Adult 1+ Various Varieties and Sizes",
+      "description": "Complete dry food for adult cats. Specially designed to promote healthy teeth with a texture that provides a gentle abrasion effect to remove plaque and tartar. No artificial colours or flavours. Taurine for a healthy heart. Natural oils for a shiny coat.",
+      "price": 19.99,
+      "quantity": 80,
+      "category": "cats",
+      "image": "https://m.media-amazon.com/images/I/81MyS1Yg9YL._AC_SL1500_.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Venandi Animal Premium Dry Cat Food, Chicken, Grain-Free with Lots of Fresh Meat, 1.5 kg",
+      "description": "Complete food for all breeds: Our cat food is suitable for cats of all ages and for all breeds. Guaranteed: Grain-free, natural cat food with extra high meat content. Our mission: Natural, genuine, original – this is Venandi. This is important to us: Natural ingredients – real raw materials – original compositions.",
+      "price": 12.89,
+      "quantity": 80,
+      "category": "cats",
+      "image": "https://m.media-amazon.com/images/I/6121mNSicaL._AC_SL1500_.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "MERA finest fit Indoor Cat Food Dry for Active Cats, Dry Food from Fresh Poultry and Rice, Healthy Food for Domestic Cats, No Sugar",
+      "description": "Just right: the finest fit indoor dry food is tailored to the special needs of domestic cats. So that you can always stay fit and active despite a small range of motion. Delicious: The tasty combination of lots of fresh poultry, rice and forest fruits provides indoor cats with the appropriate energy content for them. In addition, special minerals can prevent the formation of urinary stones.",
+      "price": 9.59,
+      "quantity": 80,
+      "category": "cats",
+      "image": "https://m.media-amazon.com/images/I/61UhiNBbcbL._AC_SL1500_.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Lifelong Complete Cat Food with Grain Free Recipe, beige",
+      "description": "High quality formula with 65% chicken. Veterinarians tested: developed by veterinarians and vetted. Complete food for older cats from 7 years. HYPOALLERGENIC - Contains a single animal protein source (chicken) No added wheat, corn, soy, egg, lactose and gluten.",
+      "price": 21.99,
+      "quantity": 80,
+      "category": "cats",
+      "image": "https://m.media-amazon.com/images/I/61wYhRezv2L._AC_SL1000_.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    }
+  ]
+  [
+    {
+      "name": "Vitakraft Premium Menu Large Parakeets",
+      "description": "Menu is a species-appropriate, balanced staple food for large parakeets that not only tastes delicious to the birds, but also gives them everything they need for a healthy life. The proven iodine vital complex also prevents deficiency symptoms and provides an extra boost of vitality! With high-quality seeds, sun-ripened grains and delicious nuts, the mixture is ideally tailored to the nutritional needs of large parakeets. Vital vitamins, minerals and trace elements help provide optimal care for the animals. ",
+      "price": 4.69,
+      "quantity": 80,
+      "category": "birds",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-premium-menu-grosssittiche-1kg.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Bird Food Pro Vita Parrot",
+      "description": "Pro Vita is a balanced, veterinary-developed staple food for parrots - with the added bonus of a healthy bird life! In addition to many tasty ingredients, the functional mixture contains the unique VITA FORMULA, a combination of high-quality omega-3 fatty acids and an optimal balance of essential amino acids specially developed by our bird experts. Pro Vita therefore guarantees perfect, all-round care for the animals – for a healthy heart, more activity and improved well-being.",
+      "price": 6.15,
+      "quantity": 80,
+      "category": "birds",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-pro-vita-papagei-750g.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Menu Honey for Parrots",
+      "description": "The Vitakraft Premium Menu with honey not only tastes delicious, but also ensures a healthy and species-appropriate meal for your parrot. The food is nutritionally optimally tailored to your animal's needs. A special iodine complex prevents deficiency symptoms. Seeds, grains, red corn and carrot pieces make the food tasty and provide birds with vital vitamins, minerals and trace elements. In addition, the bones are strengthened thanks to the optimal calcium-phosphorus ratio. Immune-active beta-glucans contribute to the activation of the immune system - for a healthy and long parrot life.",
+      "price": 12.99,
+      "quantity": 80,
+      "category": "birds",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-menu-honig-fur-papageien-3kg.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Premium Menu Canaries",
+      "description": "Canary Menu - the value pack of the popular Canary Perle® - is our tried and tested staple food with high-quality canary seed, protein-rich linseed and sun-ripened grain such as yellow, white and red millet to provide canaries with a healthy all-round supply. Enriched with VITA® HERBS, a carefully selected composition of valuable herbs such as parsley, ribwort plantain and thyme, which can support well-being. A species-appropriate, balanced mixture that the animals enjoy and gives them everything they need for a healthy life. For vital bird life! This is our Vitakraft® quality promise. The food is ideally tailored to the nutritional needs of the animals and impresses with its high-quality natural raw materials, which can also be seen thanks to the viewing window. Naturally made without colorings or preservatives and with a sugar-free recipe.",
+      "price": 11.49,
+      "quantity": 80,
+      "category": "birds",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-premiummenue-kanarienvoegel-3kg.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Premium Menü Papagei",
+      "description": "Menu is a species-appropriate, balanced staple food for parrots that not only tastes delicious to the birds, but also gives them everything they need for a healthy life. The proven iodine vital complex also prevents deficiency symptoms and provides an extra boost of vitality! With high-quality seeds and grains, red corn and carrot pieces, the mixture is ideally tailored to the nutritional needs of parrots. Vital vitamins, minerals and trace elements help provide optimal care for the animals. Valuable honey rounds off the recipe of the varied main food.",
+      "price": 4.49,
+      "quantity": 80,
+      "category": "birds",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-premium-menu-papagei-1kg.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Premium Menu Honey for large parakeets",
+      "description": "Complete food for large parakeets. Ensure your large parakeet has a balanced diet with the Vitakraft Premium menu with tasty honey. The food contains a grain mixture with high-quality seeds and delicious grains, which are optimally tailored to the needs of large parakeets. The iodine complex and a variety of vitamins prevent deficiency symptoms. Minerals and trace elements support the birds' metabolism. In addition, special immune active beta glucans strengthen the immune system. ",
+      "price": 13.19,
+      "quantity": 80,
+      "category": "birds",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-premium-menu-honig-fur-grosssittiche-3kg.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Bird Food Pro Vita Large Parakeet",
+      "description": "Pro Vita is a balanced, veterinary-developed staple food for large parakeets and cockatoos - with the benefit of a healthy bird life! In addition to many tasty ingredients, the functional mixture contains the unique VITA FORMULA, a combination of high-quality omega-3 fatty acids and an optimal balance of essential amino acids specially developed by our bird experts. Pro Vita therefore guarantees perfect, all-round care for the animals – for a healthy heart, more activity and improved well-being.",
+      "price": 6.39,
+      "quantity": 80,
+      "category": "birds",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-pro-vita-grosssittich-750g.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Amazonian staple food for South American parrots",
+      "description": "With Vitalkraft Amazonian, a piece of home comes into your parrot's cage. The food mixture consists of valuable seeds and healthy grains and is refined with fruity mangoes, papayas, bananas and aromatic chilies. These culinary specialties from South America are supplemented by ingredients for plumage care, strengthening the immune system and for energy needs. This results in a staple food that is species-appropriate and based on natural eating habits.",
+      "price": 21.99,
+      "quantity": 80,
+      "category": "birds",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-amazonian-hauptfutter-fur-sudamerikanische-papageien-750g.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft African staple food for small African parrots",
+      "description": "With the local food African from Vitakraft you can offer your lovebirds a very special food highlight. The food mixture is refined with acacia flowers, carob as well as delicious dates and figs - ingredients like those from Africa, the animals' original homeland! The rich mixture was scientifically developed by veterinarians and bird experts and of course contains all important nutrients and building materials such as vitamins, minerals and trace elements. ",
+      "price": 5.79,
+      "quantity": 80,
+      "category": "birds",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-african-hauptfutter-fur-afrikanische-kleinpapageien-750g.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Parakeet Pearl Premium",
+      "description": "Parakeet Perle® is a species-appropriate, balanced staple food for parakeets that not only tastes delicious to the birds, but also gives them everything they need for a healthy life. The proven iodine vital complex also prevents deficiency symptoms and provides an extra boost of vitality! With high-quality seeds and sun-ripened grain, aromatic eucalyptus leaves and delicious carrot pieces, the mixture is ideally tailored to the nutritional needs of parakeets. Vital vitamins, minerals and trace elements help provide optimal care for the animals.",
+      "price": 2.69,
+      "quantity": 80,
+      "category": "birds",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-sittich-perle-premium-500g5df8e4d2ad432.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    }
+  ]
+    
+
+  [
+    {
+      "name": "Vitakraft Menu Vital Dwarf Rabbit 3kg",
+      "description": "Menu Vital is a species-appropriate, balanced mixture for dwarf rabbits that not only tastes delicious to the animals, but also gives them everything they need for a healthy life. The proven vital complex also prevents deficiency symptoms and provides an extra boost of vitality! Alfalfa rich in crude fiber, fruity apples, valuable grains, delicious vegetables such as aromatic pumpkin. The food contains exactly the ingredients that a dwarf rabbit would look for in nature and is made according to a sugar-free recipe. Vital vitamins, minerals and trace elements help provide the animals with optimal nutrition.",
+      "price": 11.19,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-menu-vital-zwergkaninchen-3kg.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft LIFE Power Dwarf Rabbit",
+      "description": "This powerful mixture brings power and fitness to the food bowl! The delicious mix for dwarf rabbits contains, among other things, crunchy carrots for an extra portion of vitamins and fruity bananas as a source of energy and minerals. Valuable beta-glucans strengthen the animals' defenses, and the healthy proportion of crude fiber also supports digestion. The fiber-rich composition of the mixture also helps with the important abrasion of the constantly growing rodent teeth. Developed by rodent experts and veterinarians!",
+      "price": 10.19,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-zwergkaninchen-life-power.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Degus Premium Menu Vital 600g",
+      "description": "Ensure that your degus receive a balanced, tasty and healthy diet with the sugar-free Vital menu from Vitakraft. Delicious grains with vegetables such as peas and carrots are specifically tailored to the animals. An effective vital complex provides extra vitality. Vital vitamins and minerals prevent deficiency symptoms. Crude fibers extend the chewing time and help with the abrasion of the nail teeth, which is important for degus. Ensure optimal nutrition for your animal with this meal!",
+      "price": 3.49,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-degus-premium-menu-vital-600g5df8dda16da5f.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Menu Vital for guinea pigs",
+      "description": "With Vitakraft Menu Vital you can ensure a balanced and species-appropriate diet for your guinea pig. Fruity apples, delicious vegetables such as pumpkin and beetroot and a proven vital complex ensure a healthy life. The sugar-free recipe is enriched with vital vitamins, minerals and trace elements. Zinc and biotin ensure a healthy coat. A special combination of active ingredients that reduces unpleasant smells ensures a better smell in the rodent shelter. ",
+      "price": 16.49,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-menu-vital-fur-meerschweinchen.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft VITA Special Adult Dwarf Rabbit 600g",
+      "description": "Dwarf rabbits like to choose only what they like to eat most from the food bowl. To ensure that even picky animals are optimally cared for in every phase of their life, VITA® Special should be on the menu: thanks to the all-in-one food body, no selection is possible - and malnutrition can be ruled out; VITA® Special Adult is a life cycle food developed by veterinarians that is optimally adapted to the needs of adult dwarf rabbits. It provides the animals with all the important nutrients and building materials they need for a healthy and active life. The raw fiber-rich composition of VITA® Special encourages them to chew for longer and thereby supports the important abrasion of the nail teeth. Crude fiber also promotes digestion and ensures an intact metabolism.",
+      "price": 4.39,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-vita-special-adult-zwergkaninchen-600g.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Loftys 100g",
+      "description": "The airy, light baked Loftys are ideal as a small treat in between and are great as a reward snack. The delicious crunchy pillows contain valuable oats and tasty timothy hay and are wonderfully crispy piece by piece. It's really fun to listen to the animals eating! ",
+      "price": 2.09,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-loftys-100g.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft LIFE Wellness Dwarf Rabbit 600g",
+      "description": "LIFE Wellness contains neither grains, bran nor flour and is therefore ideal for feeding nutritionally sensitive dwarf rabbits. The soothing mix with marigolds, chamomile, cornflowers and meadow grasses contains valuable vitamins and minerals as well as a healthy proportion of crude fiber - important for supporting digestion and tooth abrasion. High-quality omega fatty acids also promote healthy skin and shiny rabbit fur. Developed by rodent experts and veterinarians!",
+      "price": 3.99,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-life-wellness-zwergkaninchen-600g.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Rollis Party 500g",
+      "description": "This “party mix” brings variety to the food bowl: the low-calcium party rollies for dwarf rabbits, guinea pigs, hamsters etc. are not only a hit in terms of taste, but also a great eye-catcher! In addition to sun-ripened grain and tasty alfalfa, the colorful crispy rings also contain valuable vitamins and minerals as well as a healthy proportion of crude fiber. Ideal as a supplement to the main food or as a snack in between.",
+      "price": 3.99,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-rollis-party-500g.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft LIFE Dream dwarf rabbit",
+      "description": "With the local food African from Vitakraft you can offer your lovebirds a very special food highlight. The food mixture is refined with acacia flowers, carob as well as delicious dates and figs - ingredients like those from Africa, the animals' original homeland! The rich mixture was scientifically developed by veterinarians and bird experts and of course contains all important nutrients and building materials such as vitamins, minerals and trace elements. ",
+      "price": 11.09,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-zwergkaninchen-life-dream.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft LIFE Power Dwarf Rabbit 600g",
+      "description": "Parakeet Perle® is a species-appropriate, balanced staple food for parakeets that not only tastes delicious to the birds, but also gives them everything they need for a healthy life. The proven iodine vital complex also prevents deficiency symptoms and provides an extra boost of vitality! With high-quality seeds and sun-ripened grain, aromatic eucalyptus leaves and delicious carrot pieces, the mixture is ideally tailored to the nutritional needs of parakeets. Vital vitamins, minerals and trace elements help provide optimal care for the animals.",
+      "price": 3.99,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-life-power-zwergkaninchen-600g.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Menu Vital for dwarf rabbits",
+      "description": "With the Vitakraft Menu Vital you can ensure a healthy and balanced meal for your dwarf rabbit. A proven vital complex ensures that deficiency symptoms are prevented and provides your animal with an extra portion of vitality. The ingredients are similar to natural food sources.The sugar-free food specially developed for dwarf rabbits contains vital vitamins, minerals and trace elements. Crude fibers have a digestive effect and ensure healthy intestinal flora. Unpleasant odors are reduced by special combinations of active ingredients and lead to better air in the rodent home.",
+      "price": 16.99,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-menu-vital-fur-zwergkaninchen.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    },
+    {
+      "name": "Vitakraft Premium Menu Vital for Rats 1kg",
+      "description": "The complete food Vitakraft Vital optimally ensures the basic nutrition of your rat. The sugar-free recipe contributes to a healthy and balanced diet. Seedy grains, fruits, vegetables and delicious nuts are specifically designed to meet the needs of rats. Animal proteins and a developed vital complex give your animal an extra boost of vitality and vitality. In addition, special combinations of active ingredients reduce unpleasant odors in the rodent home.",
+      "price": 3.99,
+      "quantity": 80,
+      "category": "rodents",
+      "image": "https://www.zooroyal.de/cdn-cgi/image/height=600,fit=cover//media/image/vitakraft-premium-menu-vital-fur-ratten-1kg.jpg",
+      "createdAt": "2024-04-11T00:00:00.000Z"
+    }
+  ]

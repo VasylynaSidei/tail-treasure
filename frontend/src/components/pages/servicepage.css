@@ -1,0 +1,94 @@
+.service-parent-container {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.service-child-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 2rem;
+  grid-column-gap: 3rem;
+  text-align: center;
+  padding: 5rem;
+}
+
+.service-card {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.service-bonus-icon {
+  grid-row: 1;
+  position: relative;
+}
+
+.service-bonus-icon::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(235, 180, 71);
+}
+
+.service-h2 {
+  grid-row: 2;
+  padding: 2rem;
+}
+
+.service-p {
+  grid-row: 3;
+}
+
+@media (max-width: 576px) {
+  .service-child-container {
+    display: block;
+    padding: 1rem;
+  }
+
+  .service-bonus-icon::after {
+    content: underline;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .service-child-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1.5rem;
+  }
+
+  .service-h2 {
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 922px) {
+  .service-child-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 3rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .service-h2 {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 923px) {
+  .service-child-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem;
+  }
+
+  .service-h2 {
+    padding: 2rem;
+  }
+}

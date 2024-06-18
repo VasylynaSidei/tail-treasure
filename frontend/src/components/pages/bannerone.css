@@ -1,0 +1,185 @@
+.bannerone-background {
+  background-color: white;
+  max-height: 90vh;
+}
+
+.container-grid {
+  display: grid;
+  gap: 0.3rem;
+  grid-template-areas:
+    "Dog Cat Bird"
+    "Dog Hamster Hamster";
+  grid-template-columns: 1fr 30% 30%;
+  margin: auto;
+  max-width: 1800px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.container-grid > .photo {
+  height: 300px;
+  padding: 0.5rem;
+}
+
+.container-grid > .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo {
+  border-radius: 1%;
+}
+.photo h3 {
+  color: rgb(0, 0, 0);
+
+  margin-top: 0.2rem;
+}
+
+.container-grid > .photo:first-child {
+  grid-area: Dog;
+  height: 604px;
+}
+
+.container-grid > .photo:last-child {
+  grid-area: Hamster;
+}
+
+.photo img {
+  border-radius: 1%;
+  padding-left: 0;
+}
+
+.dog {
+  width: 10rem;
+  padding: 2px auto;
+  text-align: center;
+
+  color: rgb(0, 0, 0);
+}
+
+.cat {
+  color: rgb(0, 0, 0);
+  text-align: end;
+  margin-top: 16rem;
+  margin-right: 2rem;
+}
+.hamster {
+  color: rgb(0, 0, 0);
+}
+
+.dog {
+  color: rgb(0, 0, 0);
+}
+
+.bird {
+  color: rgb(0, 0, 0);
+}
+@media only screen and (max-width: 820px) {
+  .dog,
+  .hamster,
+  .bird,
+  .cat {
+    font-size: 1rem;
+  }
+
+  .container-grid {
+    display: grid;
+    grid-template-areas:
+      "Dog   Hamster"
+      "Bird  Cat";
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5% auto;
+    width: 100%;
+  }
+  .dog {
+    text-align: left;
+  }
+  .cat {
+    text-align: left;
+  }
+
+  .container-grid > .photo {
+    width: 100%;
+  }
+
+  .container-grid > .photo:first-child {
+    grid-area: Dog;
+    height: 300px;
+    width: 100%;
+  }
+
+  .container-grid > .photo:nth-child(2) {
+    grid-area: Bird;
+    height: 300px;
+    width: 100%;
+  }
+
+  .container-grid > .photo:nth-child(3) {
+    grid-area: Cat;
+    height: 300px;
+    width: 100%;
+  }
+
+  .container-grid > .photo:last-child {
+    grid-area: Hamster;
+    height: 300px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .dog {
+    font-size: 1rem;
+  }
+  .hamster {
+    font-size: 1rem;
+  }
+  .bird {
+    font-size: 1rem;
+  }
+  .cat {
+    font-size: 1rem;
+  }
+  .dog {
+    text-align: left;
+  }
+  .cat {
+    text-align: left;
+  }
+
+  .container-grid {
+    display: grid;
+    grid-template-areas:
+      "Dog   Hamster"
+      "Bird  Cat";
+    grid-template-columns: repeat(4, 1fr);
+    padding: 90% auto;
+  }
+
+  .container-grid > .photo:first-child {
+    grid-area: Dog;
+    height: 300px;
+    width: 48vw;
+    margin-left: 0.5rem;
+  }
+
+  .container-grid > .photo:nth-child(2) {
+    grid-area: Bird;
+    height: 300px;
+    width: 48vw;
+    margin-left: 0.5rem;
+  }
+
+  .container-grid > .photo:nth-child(3) {
+    grid-area: Cat;
+    height: 300px;
+    width: 50vw;
+  }
+
+  .container-grid > .photo:last-child {
+    grid-area: Hamster;
+    height: 300px;
+    width: 50vw;
+  }
+}

@@ -1,0 +1,232 @@
+$table-background-color: #f0f0f0;
+$table-border-color: #e0e0e0;
+$table-header-background-color: #c0c0c0;
+$table-text-color: #333;
+$table-even-row-background-color: #f5f5f5;
+$table-button-background-color: #ddd;
+$table-delete-button-background-color: #f99;
+
+$table-breakpoint-large: 1024px;
+$table-breakpoint-medium: 990px;
+$table-breakpoint-small: 720px;
+$table-breakpoint-smallest: 520px;
+
+.table-container {
+  display: flex;
+  height: 80vh;
+}
+
+.table-wrapper {
+  flex: 10;
+  padding: 20px;
+  overflow-y: scroll;
+  background-color: $table-background-color;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px #ffffff;
+}
+
+.table-title {
+  width: 100%;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgb(138, 131, 0);
+  padding-bottom: 3px;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  background-color: $table-background-color !important;
+  border: 1px solid $table-border-color !important;
+  padding: 10px !important;
+  color: $table-text-color !important;
+}
+
+.table th {
+  background-color: $table-header-background-color !important;
+  color: #fff8f0 !important;
+}
+
+.table tr:nth-child(even) {
+  background-color: $table-even-row-background-color !important;
+}
+
+.table-image {
+  display: flex;
+  align-items: center;
+}
+
+.table-user-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.table-username {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.table-user-email {
+  font-size: 14px;
+}
+
+.table-button-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2px;
+
+  button {
+    border: none;
+    background-color: $table-button-background-color !important;
+    color: $table-text-color !important;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+
+    &:last-child {
+      background-color: $table-delete-button-background-color !important;
+    }
+
+    &:first-child:hover {
+      background-color: #80d680 !important;
+    }
+
+    &:last-child:hover {
+      background-color: #f66 !important;
+    }
+
+    a {
+      text-decoration: none;
+      color: $table-text-color !important;
+    }
+  }
+}
+
+@media (max-width: $table-breakpoint-large) {
+  .table-wrapper {
+    padding: 15px;
+  }
+
+  .table-button-group {
+    flex-wrap: wrap;
+  }
+
+  .table-button-group button {
+    width: 50%;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+  .table th,
+  .table td {
+    font-style: 14px;
+    padding: 5px;
+  }
+
+  .table-username,
+  .table-body td {
+    font-size: 16px;
+  }
+
+  .table-image {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Adding product form */
+.table-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  input,
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+  }
+
+  input[type="number"] {
+    width: calc(50% - 5px);
+  }
+
+  input[type="submit"],
+  button {
+    background-color: $table-button-background-color !important;
+    color: $table-text-color !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #80d680 !important;
+    }
+  }
+
+  button[type="button"] {
+    background-color: $table-delete-button-background-color !important;
+
+    &:hover {
+      background-color: #f66 !important;
+    }
+  }
+}
+
+@media (max-width: $table-breakpoint-medium) {
+  .table-wrapper {
+    padding: 15px;
+  }
+
+  .table-button-group button {
+    width: 70%;
+  }
+}
+
+@media (max-width: $table-breakpoint-small) {
+  .table-wrapper {
+    padding: 10px;
+  }
+
+  .table-button-group button {
+    width: 80%;
+  }
+}
+
+@media (max-width: $table-breakpoint-smallest) {
+  .table-wrapper {
+    padding: 5px;
+  }
+  .table-username,
+  .table-body td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  .table-head tr {
+    display: none;
+  }
+  .table-button-group button {
+    width: 100%;
+  }
+  .checkbox input {
+    width: 50%;
+    font-size: 16px;
+  }
+}

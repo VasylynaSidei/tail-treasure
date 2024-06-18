@@ -1,0 +1,34 @@
+import React, { useEffect } from "react";
+import Swal from "sweetalert2";
+import "./cartPlacedOrder.scss";
+import { Link } from "react-router-dom";
+
+function CartPlacedOrder() {
+  useEffect(() => {
+    Swal.fire({
+      title: "Order placed!",
+      text: "Your order has been successfully placed!",
+      icon: "success",
+      confirmButtonText: "OK",
+    });
+  }, []);
+  return (
+    <div className="cart-placed-order card">
+      <div>
+        {/* <img src="../images/loginImage2.png" alt="" /> */}
+        <img
+          src="data:image/png;base64,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"
+          alt=""
+        />
+        <h2>Thank you for your order!</h2>
+        <p>Your order has been placed and is being processed. </p>
+        <p>You will receive an email confirmation shortly.</p>
+        <button>
+          <Link to="/">Back To Main</Link>
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export default CartPlacedOrder;

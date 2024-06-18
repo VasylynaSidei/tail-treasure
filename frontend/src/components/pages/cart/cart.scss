@@ -1,0 +1,295 @@
+.cart-container {
+  margin: auto;
+  background-color: rgb(255, 248, 240);
+  .processing-line {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    border-top: solid rgb(245, 185, 73) 3px;
+    .circle {
+      position: relative;
+      bottom: 25px;
+      border-radius: 50%;
+      font-size: 2rem;
+      padding: 0 15px;
+      background-color: white;
+      border: solid rgb(245, 185, 73) 2px;
+    }
+    .circle-active {
+      background-color: rgb(245, 185, 73);
+      color: white;
+    }
+  }
+  .card {
+    width: 50%;
+    margin: auto;
+    .back-to-prod {
+      background-color: rgb(245, 185, 73);
+      color: white;
+      text-decoration: none;
+      width: 40%;
+      margin: 1rem auto;
+      font-size: 1.6rem;
+      font-weight: 500;
+      padding: 0.3rem 0;
+      border-radius: 5px;
+    }
+    .cont-quant-title {
+      width: 100%;
+    }
+    .empty-cart {
+      font-size: 1.5rem;
+      margin: 2rem 0;
+    }
+    .empty-cart-img {
+      background-color: white;
+      width: 500px;
+      display: block;
+      margin: auto;
+    }
+  }
+  .cart-item {
+    margin: 1em auto;
+    width: 90%;
+    justify-content: stretch;
+
+    .img-container {
+      background-color: white;
+      // padding: 2rem;
+    }
+    img {
+      border-radius: 0%;
+      width: 250px;
+      height: 230px;
+    }
+    .quantity-controls {
+      button {
+        width: 30px;
+        background-color: rgb(245, 185, 73);
+        border: none;
+        color: white;
+      }
+    }
+    .rmv-cont {
+      display: flex;
+      justify-content: right;
+      .remove-btn {
+        background-color: rgb(245, 185, 73);
+        border: none;
+        color: white;
+        width: 100px;
+      }
+    }
+  }
+  .total-cart {
+    margin: 2rem auto;
+    margin-bottom: 0;
+    padding-block: 2rem;
+    width: 90%;
+    border-bottom: solid 2px rgb(245, 185, 73);
+    border-top: solid 2px rgb(245, 185, 73);
+  }
+  .checkout-btn {
+    background-color: rgb(245, 185, 73);
+    border: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0 0 5px 5px;
+  }
+  .free-shipping {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    color: rgb(0, 55, 0);
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .cart-container {
+    margin: auto;
+    background-color: rgb(255, 248, 240);
+    .processing-line {
+      width: 80%;
+      margin: auto;
+      margin-top: 2rem;
+      border-top: solid rgb(245, 185, 73) 3px;
+      .circle {
+        position: relative;
+        bottom: 25px;
+        border-radius: 50%;
+        font-size: 2rem;
+        padding: 0 15px;
+        background-color: white;
+        border: solid rgb(245, 185, 73) 2px;
+      }
+      .circle-active {
+        background-color: rgb(245, 185, 73);
+        color: white;
+      }
+    }
+    .card {
+      width: 80%;
+      margin: auto;
+      .cont-quant-title {
+        width: 80%;
+      }
+      .cart-item {
+        margin: 1em auto;
+        width: 90%;
+        height: 200px;
+        justify-content: stretch;
+
+        img {
+          border-radius: 0%;
+          width: 150px;
+          height: 160px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .cart-container {
+    margin: auto;
+    background-color: rgb(255, 248, 240);
+    .processing-line {
+      padding-right: 0;
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      margin: auto;
+      margin-top: 1rem;
+      border-top: solid rgb(245, 185, 73) 3px;
+      .circle {
+        position: relative;
+        bottom: 15px;
+        border-radius: 50%;
+        font-size: 1rem;
+        padding: 0 7px;
+        background-color: white;
+        border: solid rgb(245, 185, 73) 2px;
+      }
+      .circle-active {
+        background-color: rgb(245, 185, 73);
+        color: white;
+      }
+    }
+    .card {
+      width: 80%;
+      margin: auto;
+      .back-to-prod {
+        background-color: rgb(245, 185, 73);
+        color: white;
+        text-decoration: none;
+        width: 50%;
+        margin: 1rem auto;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0.3rem 0;
+        border-radius: 5px;
+      }
+      .cont-quant-title {
+        .cart-prod-name {
+          font-size: 1rem;
+        }
+        width: 50%;
+        .price-cont {
+          font-size: 0.8rem;
+        }
+      }
+      .empty-cart {
+        font-size: 1rem;
+        margin: 2rem 0;
+      }
+      .empty-cart-img {
+        background-color: white;
+        width: 200px;
+        display: block;
+        margin: auto;
+      }
+    }
+    .cart-item {
+      margin: 1em auto;
+      width: 90%;
+      height: 150px;
+      // justify-content: stretch;
+      .cart-prod-name {
+        font-size: 1.1rem;
+      }
+      .img-container {
+        background-color: white;
+        // padding: 2rem;
+        margin: 0;
+      }
+      img {
+        border-radius: 0%;
+        width: 120px;
+        height: 120px;
+      }
+      .quantity-controls {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        // width: 80%;
+        .quant-btn {
+          display: flex;
+          flex-direction: row;
+          // padding: 0;
+          margin-bottom: 0;
+          margin-right: 35px;
+
+          .quant-span {
+            font-size: 0.8rem;
+            margin-top: 2px;
+            margin-left: 4px;
+            margin-right: 4px;
+          }
+        }
+        button {
+          margin: 0;
+          padding: 0;
+          width: 20px;
+          background-color: rgb(245, 185, 73);
+          border: none;
+          color: white;
+          font-size: 0.9rem;
+        }
+      }
+      .rmv-cont {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 0;
+        .remove-btn {
+          background-color: rgb(245, 185, 73);
+          border: none;
+          color: white;
+          width: 70px;
+          font-size: 0.8rem;
+          margin-bottom: 0;
+          padding-block: 1px;
+        }
+      }
+    }
+    .total-cart {
+      margin: 2rem auto;
+      padding-block: 2rem;
+      width: 90%;
+      border-bottom: solid 2px rgb(245, 185, 73);
+      border-top: solid 2px rgb(245, 185, 73);
+    }
+    .checkout-btn {
+      background-color: rgb(245, 185, 73);
+      border: none;
+      color: white;
+      padding: 1rem;
+      font-size: 1.2em;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border-radius: 0 0 5px 5px;
+    }
+  }
+}

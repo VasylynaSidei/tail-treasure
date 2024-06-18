@@ -1,0 +1,22 @@
+.favorites-container {
+  background-color: rgb(255, 248, 240);
+  padding-block: 0.5em;
+}
+.favorites-container .product-card {
+  width: 60%;
+  margin: 2rem auto;
+}
+.favorites-container .product-card .img-cont {
+  background-color: white;
+}
+.favorites-container .product-card .img-cont .product-image {
+  border-radius: 0%;
+  width: 300px;
+  height: 250px;
+}
+.favorites-container button {
+  background-color: rgb(245, 185, 73);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+}/*# sourceMappingURL=favorites.css.map */

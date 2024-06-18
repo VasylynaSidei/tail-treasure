@@ -1,0 +1,18 @@
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+  "firstName":"lyna",
+  "lastName": "side",
+  "email": "1@gmail.com",  
+  "adress": "address"
+}
+
+###
+
+POST http://localhost:5000/products/
+Content-Type: application/json
+
+{
+  
+}

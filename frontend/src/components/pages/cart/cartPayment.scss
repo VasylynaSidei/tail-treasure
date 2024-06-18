@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+// .card {
+//   padding-block: 1rem;
+// }
+form {
+  input {
+    width: 100%;
+    margin: auto;
+    font-size: 1.3rem;
+    padding: 8px;
+    border: 1px solid rgb(245, 185, 73);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  input:focus {
+    outline: 3px solid rgb(245, 185, 73);
+  }
+}
+.credit-form {
+  width: 100%;
+}
+.visa {
+  width: 250px;
+  margin: auto;
+  display: block;
+}
+.paypal {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+.paypal-form {
+  font-family: Poppins;
+  font-weight: 400;
+
+  width: 100%;
+  font-size: 1.2rem;
+  p {
+    color: rgb(95, 95, 95);
+  }
+  .paypal-input {
+    width: 100%;
+    margin: auto;
+    font-size: 1.2rem;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  .paypal-input:focus {
+    outline: 1px solid grey;
+  }
+  .paypal-btn {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(1, 156, 222);
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 3rem;
+  }
+}
+.back-btn {
+  border-right: white 1px solid;
+  border-radius: 0 0 0 5px;
+  width: 50%;
+  background-color: rgb(245, 185, 73);
+  padding: 5px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  font-weight: 500;
+}
+.next-btn {
+  border-left: white 1px solid;
+  border-radius: 0 0 5px 0;
+  width: 50%;
+  background-color: rgb(245, 185, 73);
+  padding: 5px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  font-weight: 500;
+}
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+  form {
+    input {
+      width: 100%;
+      margin: auto;
+      font-size: 1rem;
+      padding: 8px;
+      border: 1px solid rgb(245, 185, 73);
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    input:focus {
+      outline: 3px solid rgb(245, 185, 73);
+    }
+  }
+  .credit-form {
+    width: 100%;
+  }
+  .visa {
+    width: 200px;
+    margin: auto;
+    display: block;
+  }
+  .paypal {
+    width: 100px;
+    display: block;
+    margin: auto;
+  }
+  .paypal-form {
+    font-family: Poppins;
+    font-weight: 400;
+
+    width: 100%;
+    font-size: 1.2rem;
+    p {
+      color: rgb(95, 95, 95);
+      font-size: 1rem;
+    }
+    .paypal-input {
+      width: 100%;
+      margin: auto;
+      font-size: 1rem;
+      padding: 8px;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+    .paypal-input:focus {
+      outline: 1px solid grey;
+    }
+    .paypal-btn {
+      display: block;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: rgb(1, 156, 222);
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: white;
+      margin-bottom: 3rem;
+    }
+  }
+  .back-btn {
+    border-right: white 1px solid;
+    border-radius: 0 0 0 5px;
+    width: 50%;
+    background-color: rgb(245, 185, 73);
+    padding: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    font-weight: 500;
+  }
+  .next-btn {
+    border-left: white 1px solid;
+    border-radius: 0 0 5px 0;
+    width: 50%;
+    background-color: rgb(245, 185, 73);
+    padding: 5px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    font-weight: 500;
+  }
+}
