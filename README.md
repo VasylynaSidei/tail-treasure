@@ -77,7 +77,7 @@ Visit [http://localhost:5000](http://localhost:5000) to view the application.
 
 ### Home Page
 
-![Home Page](/screenshots/home.jpg)
+![Home Page](frontend/public/screenshots/home.jpg)
 
 ### Product Page
 
