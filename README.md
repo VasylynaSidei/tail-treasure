@@ -86,6 +86,7 @@ Visit [Tail-Treasure](https://tail-treasure-frontend.onrender.com/) to view the 
 ### Home Page (Mobile)
 
 ![Home Page Mobile1](frontend/public/screenshots/mobile_1.png)
+
 ![Home Page Mobile2](frontend/public/screenshots/mobile_2.png)
 
 ### Shopping Cart
@@ -98,4 +99,4 @@ Visit [Tail-Treasure](https://tail-treasure-frontend.onrender.com/) to view the 
 
 ### Admin Dashboard
 
-![Admin Dashboard](frontend/public/screenshot/admin.jpeg)
+![Admin Dashboard](frontend/public/screenshots/admin.jpeg)
