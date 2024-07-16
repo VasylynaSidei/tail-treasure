@@ -73,7 +73,7 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-Visit [http://localhost:5000](http://localhost:5000) to view the application.
+Visit [Tail-Treasure](https://tail-treasure-frontend.onrender.com/) to view the application.
 
 ### Home Page
 
@@ -81,21 +81,21 @@ Visit [http://localhost:5000](http://localhost:5000) to view the application.
 
 ### Product Page
 
-![Product Page](/screenshots/products.jpeg)
+![Product Page](frontend/public//screenshots/products.jpeg)
 
 ### Home Page (Mobile)
 
-![Home Page Mobile1](/screenshots/mobile_1.png)
-![Home Page Mobile2](/screenshots/mobile_2.png)
+![Home Page Mobile1](frontend/public/screenshots/mobile_1.png)
+![Home Page Mobile2](frontend/public/screenshots/mobile_2.png)
 
 ### Shopping Cart
 
-![Cart](/screenshots/cart.jpeg)
+![Cart](frontend/public/screenshots/cart.jpeg)
 
 ### Featured Products Slider
 
-![Featured Products Slider](/screenshots/slider.jpeg)
+![Featured Products Slider](frontend/public/screenshots/slider.jpeg)
 
 ### Admin Dashboard
 
-![Admin Dashboard](/screenshot/admin.jpeg)
+![Admin Dashboard](frontend/public/screenshot/admin.jpeg)
